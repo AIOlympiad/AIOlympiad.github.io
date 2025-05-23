@@ -15,7 +15,7 @@ import Logo from "./images/YSC_Logo.png";
  **************************************************************
   Add your GitHub username (string - "YourUsername") below.
 */
-export const githubUsername = "Ali-Najar";
+export const githubUsername = "AIOlympiad";
 
 // Navbar Logo image
 export const navLogo = null;
