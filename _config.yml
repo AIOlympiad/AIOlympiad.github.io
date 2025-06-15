@@ -1,0 +1,41 @@
+title: AI Olympiad
+description: International AI Competition Platform
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://aiolympiad.github.io" # the base hostname & protocol for your site
+
+# Language settings
+default_lang: en
+languages:
+  en:
+    name: English
+    code: en
+  fa:
+    name: فارسی
+    code: fa
+    rtl: true
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+nav_items:
+  - title: Home
+    title_fa: خانه
+    url: /
+  - title: Resources
+    title_fa: منابع
+    url: /resources
+  - title: About
+    title_fa: درباره
+    url: /about
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore 
