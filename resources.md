@@ -6,7 +6,7 @@ lang: en
 
 # Resources
 
-Below you can find educational content for each section. Add your files to the corresponding folder in the `resources/` directory.
+Below you can find educational content for each section.
 
 ## Probability and Statistics
 {% assign files = site.static_files | where_exp: "file", "file.path contains 'resources/probability-statistics/'" %}
